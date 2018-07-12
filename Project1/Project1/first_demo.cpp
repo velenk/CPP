@@ -30,5 +30,10 @@ void example1() {
 	inputbox_getline("Input Box", "input a string", s, 100);
 	outtextxy(10, 10, s);
 
+	int x = 1;
+	xyprintf(10, 30, "This is an integer: %d", x);
+	double y = 0.5;
+	xyprintf(10, 50, "This is a doule: %f", y);
+
 	closegraph();
 }
