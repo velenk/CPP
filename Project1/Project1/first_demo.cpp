@@ -35,5 +35,6 @@ void example1() {
 	double y = 0.5;
 	xyprintf(10, 50, "This is a doule: %f", y);
 
+	ege::getch();
 	closegraph();
 }
