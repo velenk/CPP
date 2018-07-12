@@ -1,6 +1,15 @@
 #include <graphics.h>
 
+void firstDemo();
+
 int main() {
+
+	firstDemo();
+
+	return 0;
+}
+
+void firstDemo() {
 	initgraph(640, 480);
 
 	outtextxy(200, 300, "Aloha world!");
@@ -9,5 +18,5 @@ int main() {
 	ege::getch();
 	closegraph();
 
-	return 0;
+	return;
 }
