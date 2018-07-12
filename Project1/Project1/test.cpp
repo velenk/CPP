@@ -1,7 +1,7 @@
 //第一个画图程序
 #include <graphics.h>
 
-int main()
+//int main()
 {
 	initgraph(640, 480);
 
