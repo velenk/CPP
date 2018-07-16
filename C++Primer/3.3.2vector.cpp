@@ -8,5 +8,9 @@ int main() {
   while (std::cin >> text) {
     vector1.push_back(text);
   }
+  for (auto i : vector1) {
+    std::cout << i << " ";
+  }
+  std::cout << std::endl;
   return 0;
 }
