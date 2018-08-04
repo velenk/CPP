@@ -1,7 +1,7 @@
 #ifndef SALES_DATA_H
 #define SALES_DATA_H
 #include <string>
-struct SalesData {
+class SalesData {
 friend SalesData add(const SalesData&, const SalesData&);
 friend std::ostream& print(std::ostream&, const SalesData&);
 friend std::istream& read(std::istream&, SalesData&);
