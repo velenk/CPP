@@ -4,6 +4,7 @@
 #include <string>
 typedef std::string::size_type pos;
 class Screen {
+friend class Windows;
 public:
   Screen() = default;
   Screen(pos h, pos w, char c) :
