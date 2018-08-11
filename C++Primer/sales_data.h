@@ -6,7 +6,7 @@ friend SalesData add(const SalesData&, const SalesData&);
 friend std::ostream& print(std::ostream&, const SalesData&);
 friend std::istream& read(std::istream&, SalesData&);
 public:
-  SalesData() = default;
+  SalesData(std::string s = " ") : book_isbn_(s) { }
   SalesData(const std::string& s) : book_isbn_(s) { }
   SalesData(const std::string& s, int n, double p) :
             book_isbn_(s), units_sold_(n), revenue_(p * n) { }
